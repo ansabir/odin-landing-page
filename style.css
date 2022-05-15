@@ -20,7 +20,7 @@ h2 {
   font-size: 36px;
   font-weight: 700;
   color: #1f2937;
-  padding: 50px 0;
+  padding-bottom: 50px;
 }
 
 h4 {
@@ -113,6 +113,7 @@ ul {
 
 /* Second Section */
 .secondSection {
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -134,4 +135,28 @@ ul {
 
 .box p {
     text-align: center;
+}
+
+/* Third Section */
+.wrapper {
+    background: #E5E7EB;
+}
+
+.quote {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+cite {
+    font-weight: 600;
+    float: right;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
 }
