@@ -16,9 +16,11 @@ h1 {
     margin-bottom: 1px;
 }
 
-h3 {
-  margin-top: 0;
+h2 {
   font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  padding: 50px 0;
 }
 
 h4 {
@@ -41,11 +43,7 @@ section {
     max-width: 1440px;
     margin: 0 auto;
 }
-img {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
+
 /* Header Section */
 header {
     background: #1F2937;
@@ -107,6 +105,33 @@ ul {
 }
 
 .heroRight img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
     float: right;
 }
 
+/* Second Section */
+.secondSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.boxes {
+    display: flex;
+    gap: 25px;
+}
+
+.box img {
+    height: 200px;
+    width: 300px;
+    border: 2px solid blue;
+    margin-bottom: 10px;
+    object-fit: cover;
+}
+
+.box p {
+    text-align: center;
+}
