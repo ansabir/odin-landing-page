@@ -160,3 +160,37 @@ blockquote {
     font-weight: lighter;
     color: #1F2937;
 }
+
+/* Fourth Section */
+.fourth-wrapper {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta {
+    background: #3882F6;
+    color: #E5E7EB;
+    width: 80rem;
+    border-radius: 10px;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-button {
+    border: 1px solid white;
+    background: #3882F6;
+    color: #E5E7EB;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #1F2937;
+    padding: 25px 0;
+    text-align: center;
+    color: #F9FAF8;
+}
