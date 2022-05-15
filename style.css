@@ -9,6 +9,13 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 1px;
+}
+
 h3 {
   margin-top: 0;
   font-size: 36px;
@@ -34,10 +41,15 @@ section {
     max-width: 1440px;
     margin: 0 auto;
 }
-
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
 /* Header Section */
 header {
     background: #1F2937;
+    height: 500px;
 }
 
 /* Navigation Section */
@@ -67,3 +79,34 @@ ul {
     font-weight: 600;
     color: #F9FAF8;
 }
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 2rem;
+}
+
+.heroLeft,
+.heroRight {
+    flex: 1 1 0%;
+}
+.heroLeft p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 10px;
+}
+
+.heroLeft button {
+    background: #3882F6;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 12px;
+    color: #F9FAF8;
+}
+
+.heroRight img{
+    float: right;
+}
+
